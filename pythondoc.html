@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JS Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Pythons_creation"
+            >Pythons Creation</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#If_statements">If Statements</a></li>
+        <li>
+          <a class="nav-link" href="#For_statements"
+            >For Statements</a
+          >
+        </li>
+        <li><a class="nav-link" href="#While_statements">While Statements</a></li>
+        <li>
+          <a class="nav-link" href="#Try_statements">Try Statements</a>
+        </li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.
+          </p>
+
+          <p>
+            Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.Python can be used for many different types of programming needs such as: 
+          </p>
+          <ul>
+            <li>
+             Data analysis
+            </li>
+            <li>
+             Game development
+            </li>
+            <li>
+              Machine learning
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>What you should already know</header>
+        <article>
+          <p>This guide assumes you have the following basic background:</p>
+
+          <ul>
+            <li>
+              A general understanding of the Internet and the World Wide Web
+              (WWW).
+            </li>
+            <li>Good working knowledge of Python and the basic syntax used.</li>
+            <li>
+              Some programming experience. If you are new to programming, there are many different learning sources on the web. Feel free to explore!
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Pythons_creation">
+        <header>Pythons Creation</header>
+        <article>
+          <p>
+           Python was invented in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC programming language, which was inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system. Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's "benevolent dictator for life" (BDFL), a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker (he's since come out of retirement and is self-titled "BDFL-emeritus"). In January 2019, active Python core developers elected a five-member Steering Council to lead the project.
+          </p>
+
+          <p>
+            Python can be run on Linux, macOS, and Windows operating systems. Numerous versions of it have been released periodaclly since its creation in the 1980s.
+          </p>
+          <p>
+            Python currently is one of the most popular programming languages due to its versatility. It is also fairly quick to learn with many websites offering free practice labs. 
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Hello_world">
+        <header>Hello world</header>
+        <article>
+         Start off by printing this easy sentence in Python. Open up IDLE (Python) and typing in this string
+          <code class="program">print("Hello world")
+          </code>
+          This will print the sentence "Hello world." You can use the print statement to add all sorts of text to your program.
+        </article>
+      </section>
+      <br>
+      <section class="main-section" id="If_statements">
+        <header>If Statements</header>
+        <p>
+          The <code>if</code> statement, which conditionally executes a block of code, along with <code>else</code> and <code>elif</code> (a contraction of else-if).
+        </p>
+        <p>
+          <code>If</code> statements can be used in conditional instances, such as outputting a specific response if a certain variable is true. 
+        </p>
+      </section>
+      <section class="main-section" id="For_statements">
+        <header>For Statements</header>
+        <article>
+          <p>The <code>for</code> statement, which iterates over an iterable object, capturing each element to a local variable for use by the attached block. It acts as an iterator method. Let's see what the <code>for</code> statment looks like</p>
+         <code class="program">fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+print(x)</code>
+            <p><code>For</code> loops do not require indexing variables.</p>
+        </article>
+      </section>
+      <section class="main-section" id="While_statements">
+        <header>While Statements</header>
+        <article>
+          <p>
+            <code>While</code> loops can be executed when the statement is true. 
+          </p>
+          <code class="program">i = 1
+while i < 6:
+  print(i)
+  i += 1</code>
+            <p>When using <code>while</code> loops, the relevant variables must be ready. </p>
+        </article>
+      </section>
+      <section class="main-section" id="Try_statements">
+        <header>Try statements</header>
+        <article>
+          <p>
+          The <code class="">try</code> block lets you test a block of code for errors.
+          </p>
+          <code class="program">try:
+  print(x)
+except:
+  print("An exception occurred")
+</code>
+          <p>
+          The <code>try</code> block is used in tandem with the <code>except</code> block to output text or different variables in the case of exceptions. 
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <p> All the documentation in this page is taken from: </p>
+          <ul>
+            <li>
+              <a
+                href="https://www.w3schools.com/python/"
+                target="_blank"
+                >W3Schools</a>
+                 </li>
+              <li>
+              <a href="https://en.wikipedia.org/wiki/Python_(programming_language)#Syntax_and_semantics" target="_blank">Wikipedia</a>
+            </li>
+          
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
